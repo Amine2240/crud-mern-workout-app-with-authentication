@@ -1,0 +1,27 @@
+.containlist {
+  grid-row: 1/3;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.containlist::-webkit-scrollbar {
+  /* background-color: rgba(128, 128, 128, 0.285);
+  width: 7px;
+  border: none; */
+  display: none;
+}
+
+/* .containlist::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 128, 0, 0.608);
+  border-radius: 50px;
+} */
+.contain {
+  grid-template-columns: 70% 30%;
+}
+
+@media screen and (max-width:800px) {
+  body {
+    overflow-y: scroll;
+  }
+
+}
